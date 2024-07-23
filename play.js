@@ -1,4 +1,5 @@
 var name = 'Max';
+var names = "Maxssssss";
 
 console.log(name);
 
