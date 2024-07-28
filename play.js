@@ -1,8 +1,7 @@
-var name = 'Max';
-var names = "Maxssssss";
+const http = require('http');
 
-console.log(name);
+const server = http.createServer((req, res) => {
+  console.log(req);
+});
 
-function greet() {
-  console.log('Hello there!');
-}
+server.listen(3000);
