@@ -16,3 +16,5 @@ app.use((req, res, next) => {
 const server = http.createServer(app);
 
 server.listen(3000);
+
+//Test the code and it will show the following output:
